@@ -1,0 +1,262 @@
+* {
+      margin: 0;
+      padding: 0;
+      border: none;
+      outline: none;
+      vertical-align: baseline;
+      font-size: 100%;
+}
+
+
+
+html {
+      font-family: Poppins;
+      scroll-behavior: smooth;
+}
+
+body {
+      width: 100%;
+      background: url("img/background.jpg") no-repeat center/cover;
+      box-shadow: inset 6rem 8rem 6rem #000000, inset -6rem -8rem 6rem #000000;
+}
+
+.wrapper {
+      width: 90%;
+      margin: 0 auto;
+}
+
+
+h1 {
+      color: cornsilk;
+      font-size: 3rem;
+}
+
+p {
+      color: cornsilk;
+      font-size: 1rem;
+      font-weight: 300;
+      width: 60%
+}
+
+/* navbar */
+
+nav {
+      margin-top: 2rem;
+      height: 70px;
+      line-height: 70px;
+      display: flex;
+}
+
+nav a img {
+      vertical-align: middle;
+      width: 7rem;
+      height: 8rem;
+      border-radius: 15%;
+}
+
+nav ul {
+      display: flex;
+      margin-left: 8rem;
+}
+
+nav ul li {
+      width: 20rem;
+      text-align: center;
+      list-style: none;
+}
+
+nav ul li a {
+      display: block;
+      text-decoration: none;
+      color: cornsilk;
+      font-size: 1.3rem;
+      border-radius: 15px;
+      border-bottom: 1px dashed red;
+      transition: 0.6s;
+}
+
+nav ul li a:hover {
+      background-color: rgba(220, 20, 60, 0.5);
+      text-decoration: none;
+      color: cornsilk;
+}
+
+/* header */
+
+.header {
+      margin: 130px 0 80px 40px;
+}
+
+.header p {
+      margin-top: 2rem;
+      font-size: 1.4rem;
+      line-height: 2rem;
+}
+
+.skills {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+}
+
+.tech-description {
+      text-align: center;
+      padding: 2rem;
+      color: cornsilk;
+      font-size: 2.5rem;
+}
+
+section p {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 2rem;
+      font-size: 1.6rem;
+}
+
+.skills-skill {
+      padding: 0 20px 20px;
+      height: 7rem;
+      width: 7em;
+}
+
+.skills-skill img {
+      width: 100%;
+      height: 100%;
+}
+
+.skills-skill img:hover {
+      opacity: 0.4;
+      cursor: pointer;
+}
+
+.skills-skill-description {
+      min-height: 10rem;
+      padding-top: 3rem;
+      font-size: 1.6rem;
+      line-height: 2.5rem;
+}
+
+/* Hide/show skill content initially */
+
+#skill-1-content, #skill-2-content, #skill-3-content, #skill-4-content, #skill-5-content,
+#skill-6-content, #skill-7-content, #skill-8-content, #skill-9-content, #skill-10-content {
+      display: none;
+}
+
+.show {
+      display: block !important;
+}
+
+/* Projects */
+
+.projects-title {
+      text-align: center;
+      padding: 2rem;
+      color: cornsilk;
+      font-size: 2.5rem;
+}
+
+.projects {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+}
+
+.projects__project {
+      height: 24rem;
+      width: 30rem;
+      padding: 4.2rem 1.3rem;
+}
+
+.projects__project img {
+      height: 100%;
+      width: 100%;
+      border-radius: 10%;
+      transition: 1s;
+}
+
+.projects__project img:hover {
+      opacity: 0.7;
+      cursor: pointer;
+      transform: scale(1.1);
+      -webkit-transform: scale(1.1);
+      -moz-transform: scale(1.1);
+      filter: blur(0.1em);
+}
+
+.projects__project h2 {
+      text-align: center;
+      color: cornsilk;
+      font-size: 1.5rem;
+      padding-top: 1rem;
+}
+
+.projects__project p {
+      font-size: 1.3rem;
+}
+
+/* Contact */
+
+.contact {
+      margin: 130px 0 80px 40px;
+}
+
+.contact p {
+      margin-top: 2rem;
+      font-size: 1.4rem;
+      line-height: 2rem;
+}
+
+.contact a {
+      text-decoration: none;
+      display: block;
+}
+
+.contact i:hover {
+      color: yellow;
+}
+
+.contact i {
+      margin-right: 2rem;
+      padding: 1.5rem;
+      font-size: 1.8rem;
+      color: cornsilk;
+}
+
+/* Fotter */
+
+.fotter {
+      padding: 1.2rem;
+      text-align: center;
+}
+
+.fotter span {
+      color: cornsilk;
+      font-size: 1.2rem;
+}
+
+/* Mediaqueries */
+
+@media (max-width: 800px) {
+
+      .wrapper {
+            width: 100%;
+            margin: 0 auto;
+      }
+
+      .navBar {
+            padding-bottom: 10rem;
+      }
+
+      .navBar img {
+            display: none;
+      }
+
+      nav ul {
+            display: block;
+      }
+}
