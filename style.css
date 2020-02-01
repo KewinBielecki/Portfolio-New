@@ -144,7 +144,8 @@ section p {
 /* Hide/show skill content initially */
 
 #skill-1-content, #skill-2-content, #skill-3-content, #skill-4-content, #skill-5-content,
-#skill-6-content, #skill-7-content, #skill-8-content, #skill-9-content, #skill-10-content {
+#skill-6-content, #skill-7-content, #skill-8-content, #skill-9-content, #skill-10-content,
+#skill-11-content, #skill-12-content {
       display: none;
 }
 
